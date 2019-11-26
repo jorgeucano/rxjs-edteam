@@ -1,0 +1,30 @@
+- Observable - > representacion de valores o eventos futuros
+- observer -> coleccion de devoluciones de llamadas 
+- subscrition -> "repesentacion" de la ejecucion del observable
+- operators -> funciones al estilo p-funcional  
+- subject -> equivalente al event emmiter (multicasting)
+- schedulers -> despachador centralizado
+
+// instalacion
+
+//cdn 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.1.0/rxjs.umd.js"></script>
+ 
+
+// npm 
+npm install rxjs
+yarn add rxjs
+
+import { Observable } from 'rxjs';
+
+// commonjs
+npm install rxjs
+yarn add rxjs
+
+var Observable = require('rxjs/Observable').Observable;
+
+
+
+
+
+
